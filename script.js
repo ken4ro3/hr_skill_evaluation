@@ -1,30 +1,36 @@
-let currentPage = 1;
-const totalPages = 6;  // 質問ページの数（例: 6ページ）
-
 const apiUrl = 'https://raw.githubusercontent.com/yourusername/repository-name/main/survey-data.json';  // JSONファイルのURL
+
+let currentPage = 1;
+let totalPages = 0;
 
 window.onload = function() {
   fetch(apiUrl)
     .then(response => response.json())  // GitHub PagesからのJSONデータを取得
     .then(data => {
       const surveyPagesContainer = document.getElementById('surveyPages');
-      let currentPage = '';
+      let currentPageName = '';
+      
+      totalPages = data.length;
 
       data.forEach((question, index) => {
         // 新しいページが始まるとき（ページ名が変わったら）
-        if (currentPage !== question.page_name) {
-          if (currentPage !== '') {
+        if (currentPageName !== question.page_name) {
+          if (currentPageName !== '') {
             surveyPagesContainer.appendChild(document.createElement('hr')); // ページ間の区切り
           }
-          currentPage = question.page_name;
+          currentPageName = question.page_name;
           const pageTitle = document.createElement('h2');
-          pageTitle.textContent = currentPage;
+          pageTitle.textContent = currentPageName;
           surveyPagesContainer.appendChild(pageTitle);
         }
 
         // 質問をフォームに追加
         const questionContainer = document.createElement('div');
         questionContainer.classList.add('question');
+        questionContainer.setAttribute('id', `page${currentPage}`); // ページIDを設定
+        if (currentPage !== 1) {
+          questionContainer.style.display = 'none'; // 最初のページ以外は非表示に
+        }
 
         const label = document.createElement('label');
         label.setAttribute('for', question.question_name);
@@ -71,7 +77,6 @@ window.onload = function() {
 function changePage(offset) {
   const currentPageElement = document.getElementById(`page${currentPage}`);
   
-  // ページが見つからない場合はエラーメッセージを表示
   if (!currentPageElement) {
     console.error(`Page ${currentPage} not found!`);
     return;
@@ -81,12 +86,12 @@ function changePage(offset) {
 
   currentPage += offset;
 
-  if (currentPage > totalPages) currentPage = totalPages; // 最後のページ
-  if (currentPage < 1) currentPage = 1; // 最初のページ
+  // ページの範囲チェック
+  if (currentPage > totalPages) currentPage = totalPages;
+  if (currentPage < 1) currentPage = 1;
 
   const nextPageElement = document.getElementById(`page${currentPage}`);
   
-  // 次のページが見つからない場合のエラーチェック
   if (!nextPageElement) {
     console.error(`Page ${currentPage} not found!`);
     return;
