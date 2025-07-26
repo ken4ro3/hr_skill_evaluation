@@ -1,0 +1,302 @@
+[
+  {
+    "page_name": "採用",
+    "question_text": "100人以上の候補者に対して面接を実施したことがある",
+    "question_name": "recruiting_q1"
+  },
+  {
+    "page_name": "採用",
+    "question_text": "組織のカルチャーフィットを採用基準に組み込んだことがある",
+    "question_name": "recruiting_q2"
+  },
+  {
+    "page_name": "採用",
+    "question_text": "グローバルな採用戦略を設計したことがある",
+    "question_name": "recruiting_q3"
+  },
+  {
+    "page_name": "採用",
+    "question_text": "採用プロセスの自動化ツール（ATS, AI面接ツール）を導入した経験がある",
+    "question_name": "recruiting_q4"
+  },
+  {
+    "page_name": "採用",
+    "question_text": "タレントプールの構築・運営を担当したことがある",
+    "question_name": "recruiting_q5"
+  },
+  {
+    "page_name": "採用",
+    "question_text": "多様なバックグラウンドを持つ候補者を公平に評価した経験がある",
+    "question_name": "recruiting_q6"
+  },
+  {
+    "page_name": "採用",
+    "question_text": "採用後の定着率を改善するための施策を立案したことがある",
+    "question_name": "recruiting_q7"
+  },
+  {
+    "page_name": "採用",
+    "question_text": "社内メンバーからリファレンスチェックを実施したことがある",
+    "question_name": "recruiting_q8"
+  },
+  {
+    "page_name": "採用",
+    "question_text": "採用面接で複数名の面接官を指導したことがある",
+    "question_name": "recruiting_q9"
+  },
+  {
+    "page_name": "採用",
+    "question_text": "採用のパフォーマンスをKPI（例：時間当たり採用数）で測定したことがある",
+    "question_name": "recruiting_q10"
+  },
+  {
+    "page_name": "データ分析",
+    "question_text": "HRデータを活用して従業員の定着率予測をしたことがある",
+    "question_name": "data_q1"
+  },
+  {
+    "page_name": "データ分析",
+    "question_text": "収集したHRデータを基に、企業の戦略を改善する提案をしたことがある",
+    "question_name": "data_q2"
+  },
+  {
+    "page_name": "データ分析",
+    "question_text": "ビジネス部門と連携してデータドリブンの意思決定を行ったことがある",
+    "question_name": "data_q3"
+  },
+  {
+    "page_name": "データ分析",
+    "question_text": "予測分析を活用して採用戦略を最適化した経験がある",
+    "question_name": "data_q4"
+  },
+  {
+    "page_name": "データ分析",
+    "question_text": "ダッシュボードを用いて経営層にデータを報告した経験がある",
+    "question_name": "data_q5"
+  },
+  {
+    "page_name": "データ分析",
+    "question_text": "労働市場に関するデータ分析を行い、人事戦略に反映させたことがある",
+    "question_name": "data_q6"
+  },
+  {
+    "page_name": "データ分析",
+    "question_text": "定性データと定量データを組み合わせた分析を行ったことがある",
+    "question_name": "data_q7"
+  },
+  {
+    "page_name": "データ分析",
+    "question_text": "労働市場のトレンドを予測するために外部データを取り入れたことがある",
+    "question_name": "data_q8"
+  },
+  {
+    "page_name": "データ分析",
+    "question_text": "顧客や従業員のエンゲージメントを測定するための調査設計をしたことがある",
+    "question_name": "data_q9"
+  },
+  {
+    "page_name": "データ分析",
+    "question_text": "複数のデータソースを統合し、HR施策の効果を定量的に示したことがある",
+    "question_name": "data_q10"
+  },
+  {
+    "page_name": "HRBP",
+    "question_text": "経営戦略と整合性のある人事戦略を策定したことがある",
+    "question_name": "hrbp_q1"
+  },
+  {
+    "page_name": "HRBP",
+    "question_text": "人事戦略を定期的にレビューし、改善の提案を行った経験がある",
+    "question_name": "hrbp_q2"
+  },
+  {
+    "page_name": "HRBP",
+    "question_text": "組織再編の際、変革をリードした経験がある",
+    "question_name": "hrbp_q3"
+  },
+  {
+    "page_name": "HRBP",
+    "question_text": "チームパフォーマンスを評価し、改善策を提案したことがある",
+    "question_name": "hrbp_q4"
+  },
+  {
+    "page_name": "HRBP",
+    "question_text": "人材育成のためのキャリア開発プログラムを設計・導入したことがある",
+    "question_name": "hrbp_q5"
+  },
+  {
+    "page_name": "HRBP",
+    "question_text": "組織の文化改革に携わり、成果を出したことがある",
+    "question_name": "hrbp_q6"
+  },
+  {
+    "page_name": "HRBP",
+    "question_text": "社内のエンゲージメント向上策を設計し実施したことがある",
+    "question_name": "hrbp_q7"
+  },
+  {
+    "page_name": "HRBP",
+    "question_text": "組織の目標達成に向けて人事データを活用したことがある",
+    "question_name": "hrbp_q8"
+  },
+  {
+    "page_name": "HRBP",
+    "question_text": "多部門と連携して人事施策を実行した経験がある",
+    "question_name": "hrbp_q9"
+  },
+  {
+    "page_name": "HRBP",
+    "question_text": "経営陣に対して組織のパフォーマンス向上に必要な人事戦略を提案したことがある",
+    "question_name": "hrbp_q10"
+  },
+  {
+    "page_name": "組織開発",
+    "question_text": "組織開発の施策をトップダウンで推進した経験がある",
+    "question_name": "org_q1"
+  },
+  {
+    "page_name": "組織開発",
+    "question_text": "組織のミッションやビジョンを定期的に見直し、更新したことがある",
+    "question_name": "org_q2"
+  },
+  {
+    "page_name": "組織開発",
+    "question_text": "従業員のフィードバックを基に組織の改革を行ったことがある",
+    "question_name": "org_q3"
+  },
+  {
+    "page_name": "組織開発",
+    "question_text": "労働市場や競合他社と比較し、自社の強み・弱みを分析したことがある",
+    "question_name": "org_q4"
+  },
+  {
+    "page_name": "組織開発",
+    "question_text": "組織開発に関する新しいアプローチを導入し、成果を出したことがある",
+    "question_name": "org_q5"
+  },
+  {
+    "page_name": "組織開発",
+    "question_text": "ダイバーシティ推進のための施策を設計した経験がある",
+    "question_name": "org_q6"
+  },
+  {
+    "page_name": "組織開発",
+    "question_text": "全社的なリーダーシップ開発プログラムを運営したことがある",
+    "question_name": "org_q7"
+  },
+  {
+    "page_name": "組織開発",
+    "question_text": "ワークショップやセミナーを通じて組織開発を支援した経験がある",
+    "question_name": "org_q8"
+  },
+  {
+    "page_name": "組織開発",
+    "question_text": "社内コミュニケーション戦略を刷新した経験がある",
+    "question_name": "org_q9"
+  },
+  {
+    "page_name": "組織開発",
+    "question_text": "組織文化を評価し、改善策を実施したことがある",
+    "question_name": "org_q10"
+  },
+  {
+    "page_name": "労務管理",
+    "question_text": "労働法の改正に迅速に対応し、社内に浸透させたことがある",
+    "question_name": "labor_q1"
+  },
+  {
+    "page_name": "労務管理",
+    "question_text": "労働問題（労働争議や訴訟）の予防策を実施した経験がある",
+    "question_name": "labor_q2"
+  },
+  {
+    "page_name": "労務管理",
+    "question_text": "従業員の福利厚生制度を新たに設計・実施したことがある",
+    "question_name": "labor_q3"
+  },
+  {
+    "page_name": "労務管理",
+    "question_text": "労働安全衛生規定を適用し、リスク管理の体制を強化したことがある",
+    "question_name": "labor_q4"
+  },
+  {
+    "page_name": "労務管理",
+    "question_text": "組合との交渉を成功させた経験がある",
+    "question_name": "labor_q5"
+  },
+  {
+    "page_name": "労務管理",
+    "question_text": "社内ハラスメント問題に関する対策を立案し実施したことがある",
+    "question_name": "labor_q6"
+  },
+  {
+    "page_name": "労務管理",
+    "question_text": "休職・復職に関するポリシーを策定したことがある",
+    "question_name": "labor_q7"
+  },
+  {
+    "page_name": "労務管理",
+    "question_text": "フレックスタイム制度やリモートワーク制度を導入したことがある",
+    "question_name": "labor_q8"
+  },
+  {
+    "page_name": "労務管理",
+    "question_text": "労使関係を改善するためにリーダーシップを発揮したことがある",
+    "question_name": "labor_q9"
+  },
+  {
+    "page_name": "労務管理",
+    "question_text": "従業員の労働時間をモニタリングし、適切な管理体制を実施したことがある",
+    "question_name": "labor_q10"
+  },
+  {
+    "page_name": "人材育成",
+    "question_text": "企業の成長戦略に沿った人材育成プランを作成したことがある",
+    "question_name": "talent_q1"
+  },
+  {
+    "page_name": "人材育成",
+    "question_text": "人材育成に関する新しいアプローチを導入し、成果を上げた経験がある",
+    "question_name": "talent_q2"
+  },
+  {
+    "page_name": "人材育成",
+    "question_text": "従業員のスキルアップを支援するためのカスタマイズ研修を実施したことがある",
+    "question_name": "talent_q3"
+  },
+  {
+    "page_name": "人材育成",
+    "question_text": "e-learningシステムを導入した経験がある",
+    "question_name": "talent_q4"
+  },
+  {
+    "page_name": "人材育成",
+    "question_text": "組織の成長に必要な人材を見極め、育成するためのプログラムを実施したことがある",
+    "question_name": "talent_q5"
+  },
+  {
+    "page_name": "人材育成",
+    "question_text": "役職ごとのキャリアパスを設計したことがある",
+    "question_name": "talent_q6"
+  },
+  {
+    "page_name": "人材育成",
+    "question_text": "人材のエンゲージメントを測定し、改善策を講じたことがある",
+    "question_name": "talent_q7"
+  },
+  {
+    "page_name": "人材育成",
+    "question_text": "リーダーシップ開発のためのプログラムを実施したことがある",
+    "question_name": "talent_q8"
+  },
+  {
+    "page_name": "人材育成",
+    "question_text": "研修のROI（投資対効果）を測定し、報告したことがある",
+    "question_name": "talent_q9"
+  },
+  {
+    "page_name": "人材育成",
+    "question_text": "社内メンター制度を設立したことがある",
+    "question_name": "talent_q10"
+  }
+]
