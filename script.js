@@ -1,5 +1,5 @@
 // Google Sheets APIのURL（Google Apps Scriptで公開したURL）
-const apiUrl = 'https://script.google.com/macros/s/YOUR_SCRIPT_URL/exec';  // ここにWebアプリケーションのURLを貼り付け
+const apiUrl = 'https://script.google.com/macros/s/AKfycby4ixRhudAC7nd6E9pktFT1JMC3CSeGni0aRZDbikGWgUPkBubC-CVGye62d6_FLwMDQw/exec';  // ここにWebアプリケーションのURLを貼り付け
 
 window.onload = function() {
   fetch(apiUrl)
