@@ -1,12 +1,11 @@
 let currentPage = 1;
 const totalPages = 6;  // 質問ページの数（例: 6ページ）
 
-window.onload = function() {
-  // Google Sheets APIのURL（Google Apps Scriptで公開したURL）
-  const apiUrl = 'https://script.google.com/macros/s/AKfycby4ixRhudAC7nd6E9pktFT1JMC3CSeGni0aRZDbikGWgUPkBubC-CVGye62d6_FLwMDQw/exec';  // GASのWebアプリケーションのURLを貼り付け
+const apiUrl = 'https://raw.githubusercontent.com/yourusername/repository-name/main/survey-data.json';  // JSONファイルのURL
 
+window.onload = function() {
   fetch(apiUrl)
-    .then(response => response.json()) // Google SheetsからのデータをJSONとして取得
+    .then(response => response.json())  // GitHub PagesからのJSONデータを取得
     .then(data => {
       const surveyPagesContainer = document.getElementById('surveyPages');
       let currentPage = '';
